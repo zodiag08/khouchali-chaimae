@@ -1,0 +1,118 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ header {
+    background-color:pink;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    padding: 3px 0;
+    font-family:Arial, Helvetica, sans-serif ;
+  }
+  section{
+    background-image:url(aman.jpg);
+    
+    
+  }
+ 
+    nav ul li {
+        display: inline;
+        margin: 26px;
+        font-style: oblique;
+        float: left; 
+        font-size: 25px;
+        justify-content: end;
+    }   
+    .logo {
+        width: 15%;  
+        height:15%;
+        
+        position: fixed; left: 0%;
+        float: right;
+
+      
+    }
+    nav{ 
+        position: fixed;right: 0;
+        justify-content: space-between;
+      } 
+ .product-container {
+        display: flex;
+
+        padding: 4%;
+        justify-content: space-evenly;
+      }
+.product-contain {
+        display: flex;
+        justify-content: space-evenly;
+      }
+.product {
+        display: flex;
+        justify-content: space-evenly;
+      }
+     
+      
+
+      
+      .menu-item {
+        flex: 0 0 calc(33.333% - 20px);
+        max-width: 300px;
+        margin: 90px;
+        padding: 60px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 5px rgb(147, 3, 27);
+      }
+      
+      .menu-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        justify-content: space-between;
+    
+      }
+      
+      .menu-item h3 {
+        margin-top: 10px;
+        font-size: 1.2em;
+      }
+      
+      .menu-item p {
+        margin-top: 5px;
+        color: #666;
+      }
+      
+      .menu-item span {
+        display: block;
+        margin-top: 5px;
+        font-weight: bold;
+      }
+      
+      .menu-item button {
+        display: block;
+        margin-top: 10px;
+        padding: 8px 15px;
+        background-color: palevioletred;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      } 
+      a{
+        text-decoration: none;color:black;
+      }
+      a:hover{text-shadow: 0 0 5px rgb(147, 3, 27) ,
+        0 0 5px rgb(147, 3, 27),
+        0 0 5px rgb(147, 3, 27),
+        0 0 5px rgb(208, 133, 145);
+
+    }
